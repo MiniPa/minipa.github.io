@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Wiki
-description: 人越学越觉得自己无知
+description: Nothing 就是干
 keywords: 维基, Wiki
 comments: false
 menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 来吧，快进入我的大脑吧，求您了。  
+[MiniPa 的思维脑图](http://naotu.baidu.com/file/7e660fc1ceda778ca591adaba6f7cdcb?token=5f13b5f65ac59922)
+
 
 <ul class="listing">
 {% for wiki in site.wiki %}

@@ -1,19 +1,21 @@
-- name: Software Engineer Keywords
+- name: Software Engineer
   keywords:
       - Java
-      - C++
       - Python
+      - Hadoop
+      - Spark
       - Design Patterns
 
-- name: Mobile Developer Keywords
+- name: HTML Developer
   keywords:
-      - Android
-      - Reverse Engineering
+      - HTML
+      - CSS
+      - SCSS SASS
+      - JavaScript
+      - vue
 
-- name: Windows Developer Keywords
+- name: BigData Developer
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Hadoop
+      - Spark
+      - Mongodb

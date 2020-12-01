@@ -5,34 +5,38 @@ baseurl:
 url: https://minipa.bxg.today
 date_format: "ordinal"
 title: MiniPa
-subtitle: "做好一件事情足以"
-description: "没有比写代码更轻松，让人愉快的事情了"
+subtitle: "有目的努力做一件事，无目的选择一个爱好，然后认真爱一个人"
+description: "没有比写代码更轻松，让人愉快的事情了，Coding Not Copying"
 keywords: MiniPa, 分布式, 微服务, 大数据, AI, 架构世界
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 10
 repository: MiniPa/minipa.github.io
 
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
         enabled: true
+
 # 组件配置
 components:
     # 分享
     share:
-        enabled: false
+        enabled: true
     # 不蒜子访问统计
     busuanzi:
         enabled: true
         start_date: 2020-11-30
+
 # 压缩页面内容
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
+
 # 文章字数统计
 word_count:
     enabled: true
+
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
 highlight_theme: github
 
@@ -66,9 +70,9 @@ navs:
 #     href: /open-source/
 #     label: 开源
 
-  -
-    href: /wiki/
-    label: 维基
+#  -
+#    href: /wiki/
+#    label: 维基
 
   -
     href: /links/
@@ -89,12 +93,14 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+
 highlighter: rouge
 paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
+
 plugins:
     - jekyll-github-metadata
     - rouge
@@ -104,6 +110,7 @@ plugins:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
+
 collections:
     wiki:
         output: true
@@ -119,7 +126,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username:
+    username: chengminipa
 
 # https://imsun.net/posts/gitment-introduction/
 gitment:

@@ -1,18 +1,20 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 有目的努力做一件事，无目的选择一个爱好，然后认真爱一个人
+keywords: MiniPa
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+有目的努力做一件事
 
-仰慕「优雅编码的艺术」。
+无目的选择一个爱好
 
-坚信熟能生巧，努力改变人生。
+然后认真爱一个人
+
+Coding 不是万能的，但没有 Coding 是万万不能的。
 
 ## 联系
 
@@ -20,16 +22,16 @@ permalink: /about/
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'mazhuang.org' %}
+{% if site.url contains 'minipa' %}
 <li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
+微信：<br />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="同一个世界，同一个梦想" />
 </li>
 {% endif %}
 </ul>
 
 
-## Skill Keywords
+## 技能关键词
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}

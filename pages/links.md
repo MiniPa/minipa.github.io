@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
+description: 给我一双微暖的手，给我一条美丽的链接
 keywords: 友情链接
 comments: true
 menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 你是一只小白兔，我也是一只小白兔，一群小白兔
 
 <ul>
 {% for link in site.data.links %}
