@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: 努力做一件事，亲近一个爱好，交往一些些朋友
+description: 一件意事，一个爱好，足矣
 keywords: MiniPa
 comments: true
 menu: 关于
