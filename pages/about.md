@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-description: 有目的努力做一件事，无目的选择一个爱好，然后认真爱一个人
+description: 努力做一件事，亲近一个爱好，交往一些些朋友
 keywords: MiniPa
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-有目的努力做一件事
+努力做一件事
 
-无目的选择一个爱好
+亲近一个爱好
 
-然后认真爱一个人
+交往一些些朋友
 
 Coding 不是万能的，但没有 Coding 是万万不能的。
 

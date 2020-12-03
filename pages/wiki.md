@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 来吧，快进入我的大脑吧，求您了。  
+> 进入另一个人的大脑。  
 [MiniPa 的思维脑图](http://naotu.baidu.com/file/7e660fc1ceda778ca591adaba6f7cdcb?token=5f13b5f65ac59922)
 
 
