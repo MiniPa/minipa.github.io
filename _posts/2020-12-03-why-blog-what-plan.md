@@ -35,7 +35,7 @@ topmost: true
 
 ##### 一、还能为啥，因为我是敲字狂魔，从大学开始我就使用 onenote 来记录学习、工作、生活。  
 
-- [ ]  等待我出一篇我使用 onenote 心得吧:smile:   
+- [ ] 等待我出一篇我使用 onenote 心得吧:smile:   
 
 所以目前也积累了很多的笔记，供我自己使用没问题，现在想分享出来，锻炼自己美好大家，下面有我日常工作笔记，虽然可以联系我拿链接，但还是建议大家自己梳理自己的知识点，做自己的笔记，好消化。
 
@@ -44,38 +44,38 @@ topmost: true
 - 献上技术丑图若干。
 
 **1.主人，您的微服务到啦**
-![1607008148474](../images/posts/2020-12-03-why-blog-what-plan/1607008148474.png)
+![1607008148474](/images/posts/2020-12-03-why-blog-what-plan/1607008148474.png)
 
-![1607008507828](../images/posts/2020-12-03-why-blog-what-plan/1607008507828.png)
+![1607008507828](/images/posts/2020-12-03-why-blog-what-plan/1607008507828.png)
 
 **2.老爷，该打打技术基础啦**
-![1607008799973](../images/posts/2020-12-03-why-blog-what-plan/1607008799973.png)
+![1607008799973](/images/posts/2020-12-03-why-blog-what-plan/1607008799973.png)
 
 **3.为啥说，我们要回头学习**
-![1607008877464](../images/posts/2020-12-03-why-blog-what-plan/1607008877464.png)
+![1607008877464](/images/posts/2020-12-03-why-blog-what-plan/1607008877464.png)
 
 **4.当一个Python课老师的快乐**
-![1607008975827](../images/posts/2020-12-03-why-blog-what-plan/1607008975827.png)
+![1607008975827](/images/posts/2020-12-03-why-blog-what-plan/1607008975827.png)
 
 **5.大数据也很有趣**
-![1607009177476](../images/posts/2020-12-03-why-blog-what-plan/1607009177476.png)
+![1607009177476](/images/posts/2020-12-03-why-blog-what-plan/1607009177476.png)
 
 **6.想和我一起复习数学嘛**
-![1607009306950](../images/posts/2020-12-03-why-blog-what-plan/1607009306950.png)
+![1607009306950](/images/posts/2020-12-03-why-blog-what-plan/1607009306950.png)
 
 **7.为了和前端做朋友，好好学习前端**
-![1607009481965](../images/posts/2020-12-03-why-blog-what-plan/1607009481965.png)
+![1607009481965](/images/posts/2020-12-03-why-blog-what-plan/1607009481965.png)
 
 - 献上做技术，还要补课的其它内容若干痛苦
 
 **8.不了解产品的程序员，不是产品好搭档**
-![1607009713080](../images/posts/2020-12-03-why-blog-what-plan/1607009713080.png)
+![1607009713080](/images/posts/2020-12-03-why-blog-what-plan/1607009713080.png)
 
 **9.30w买来的 Saas、营销学习过程,巴拉巴拉​**:cry:
-![1607010006320](../images/posts/2020-12-03-why-blog-what-plan/1607010006320.png)
+![1607010006320](/images/posts/2020-12-03-why-blog-what-plan/1607010006320.png)
 
 **10.程序员也要丰富多彩，努力涨EQ，要不和我一样单身 wang**
-![1607010077769](../images/posts/2020-12-03-why-blog-what-plan/1607010077769.png)
+![1607010077769](/images/posts/2020-12-03-why-blog-what-plan/1607010077769.png)
 
 ##### 二、什么值得传播
 
