@@ -3,7 +3,7 @@ layout: post
 title: 为啥写Blog，专注于什么计划？
 categories: [文档能力, 沟通能力]
 excerpt: 写 Blog 的原因
-description: some word here
+description: just do something
 keywords: Blog, 博客, 技术博客
 topmost: true
 ---
