@@ -104,7 +104,7 @@ XP Extreme Programing 测试/重构/持续集成
 #### 推荐使用的软件 StartUML、Rose 等
 
 - UML  
-  ![未命名图片](/images/posts/2016-06-6-uml-diagram/未命名图片.png)
+  ![未命名图片](/images/posts/2016-06-06-uml-diagram/未命名图片.png)
 
 
 

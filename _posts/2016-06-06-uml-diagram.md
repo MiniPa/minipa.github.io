@@ -20,7 +20,7 @@ topmost: false
 
 ####  一、关系图9种类型
 
-![1607154278486](/images/posts/2016-06-6-uml-diagram/1607154278486.png)
+![1607154278486](/images/posts/2016-06-06-uml-diagram/1607154278486.png)
 
 ####  二、来学图吧
 
@@ -45,7 +45,7 @@ topmost: false
 
 - 基本路径里不要有：如果。(放到扩展点)
 
-![img](/images/posts/2016-06-6-uml-diagram/2474800-2ea965b77abfa48b-1607155104143.webp)
+![img](/images/posts/2016-06-06-uml-diagram/2474800-2ea965b77abfa48b-1607155104143.webp)
 
 如何发现UC:
 
@@ -93,7 +93,7 @@ topmost: false
 - 类分析：实体类、控制类、边界类 等
 - 概念模型：领域模型 OO 分析 Domain Model
 
-![1607154333680](/images/posts/2016-06-6-uml-diagram/1607154333680.png)
+![1607154333680](/images/posts/2016-06-06-uml-diagram/1607154333680.png)
 
 ###### 2.2 对象图 Object Diagram
 
@@ -101,7 +101,7 @@ topmost: false
   Object-D 可看作 Class-D 的特殊用例  
 
 - 核心概念：对象、链接、多重性  
-  ![1607158860954](/images/posts/2016-06-6-uml-diagram/1607158860954.png)
+  ![1607158860954](/images/posts/2016-06-06-uml-diagram/1607158860954.png)
 
 - 用途：系统原型、逆向工程、复杂数据结构、瞬态图、捕捉实例
 
@@ -121,18 +121,18 @@ topmost: false
 
 - 以下是 Oath2 场景的时序图
 
-  ![1607159998166](/images/posts/2016-06-6-uml-diagram/1607159998166.png)
+  ![1607159998166](/images/posts/2016-06-06-uml-diagram/1607159998166.png)
 
 - 这里有另一个时序图 [Blog](https://blog.csdn.net/fly_zxy/article/details/80911942)
 
-![img](/images/posts/2016-06-6-uml-diagram/20180704155415694.jpg)
+![img](/images/posts/2016-06-06-uml-diagram/20180704155415694.jpg)
 
 ###### 3.2 协作图 Collaborative Diagram
 
 - 交互图的一种，描述了收发消息的对象的组织关系，强调对象之间的合作关系。
 - 时序图按照时间顺序布图，而协作图按照空间结构布图
 
-![1607160575343](/images/posts/2016-06-6-uml-diagram/1607160575343.png)
+![1607160575343](/images/posts/2016-06-06-uml-diagram/1607160575343.png)
 
 ###### 3.3 状态图 State Diagram
 
@@ -145,9 +145,9 @@ topmost: false
   - 4）子状态 substate
   - 5）延迟事件 deferred event
 
-![1607160980165](/images/posts/2016-06-6-uml-diagram/1607160980165.png)
+![1607160980165](/images/posts/2016-06-06-uml-diagram/1607160980165.png)
 
-![1607161001421](/images/posts/2016-06-6-uml-diagram/1607161001421.png)
+![1607161001421](/images/posts/2016-06-06-uml-diagram/1607161001421.png)
 
 ###### 3.4 活动图 Activity Diagram
 
@@ -160,9 +160,9 @@ topmost: false
 
   [活动图 Blog](https://www.cnblogs.com/ywqu/archive/2009/12/14/1624082.html)
 
-  ![1607161510372](/images/posts/2016-06-6-uml-diagram/1607161510372.png)
+  ![1607161510372](/images/posts/2016-06-06-uml-diagram/1607161510372.png)
 
-![1607161583608](/images/posts/2016-06-6-uml-diagram/1607161583608.png)
+![1607161583608](/images/posts/2016-06-06-uml-diagram/1607161583608.png)
 
 ##### 4.构件图 Component 
 
@@ -171,13 +171,13 @@ topmost: false
 - 构建图之间的关系表现为**依赖**关系，定义的类或接口与类之间的关系表现为依赖关系或实现关系。
 - = 构件（**Component**）+接口（**Interface**）+关系（**Relationship**）+端口（**Port**）+连接器（**Connector**）
 
-![1607162539519](/images/posts/2016-06-6-uml-diagram/1607162539519.png)
+![1607162539519](/images/posts/2016-06-06-uml-diagram/1607162539519.png)
 
 5. ##### Deployment 部署图
 
    - 描述系统运行时进行处理的**结点**以及在结点上活动的**构件的配置**。强调了物理设备以及之间的**连接关系**。
 
-![1607162781771](/images/posts/2016-06-6-uml-diagram/1607162781771.png)
+![1607162781771](/images/posts/2016-06-06-uml-diagram/1607162781771.png)
 
 ## 参考
 
