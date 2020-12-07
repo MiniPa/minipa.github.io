@@ -45,7 +45,7 @@ topmost: false
 
 - 基本路径里不要有：如果。(放到扩展点)
 
-![img](/images/posts/2016-06-06-uml-diagram/2474800-2ea965b77abfa48b-1607155104143.webp)
+![img](/images/posts/2016-06-06-uml-diagram/2474800-2ea965b77abfa48b-1607155104143.png)
 
 如何发现UC:
 
