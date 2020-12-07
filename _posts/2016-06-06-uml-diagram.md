@@ -40,12 +40,12 @@ topmost: false
 基本规则：
 
 - 描述参与者与系统间的**交互**  
-
 - 参与者动作 数据的传输 系统响应--原则  
-
 - 基本路径里不要有：如果。(放到扩展点)
 
-![img](/images/posts/2016-06-06-uml-diagram/2474800-2ea965b77abfa48b-1607155104143.png)
+![usecase1](/images/posts/2016-06-06-uml-diagram/usecase1.png)
+
+![usecase2](/images/posts/2016-06-06-uml-diagram/usecase2.png)
 
 如何发现UC:
 
@@ -93,7 +93,9 @@ topmost: false
 - 类分析：实体类、控制类、边界类 等
 - 概念模型：领域模型 OO 分析 Domain Model
 
-![1607154333680](/images/posts/2016-06-06-uml-diagram/1607154333680.png)
+![classDiagram](/images/posts/2016-06-06-uml-diagram/classDiagram.png)
+
+
 
 ###### 2.2 对象图 Object Diagram
 
@@ -123,9 +125,15 @@ topmost: false
 
   ![1607159998166](/images/posts/2016-06-06-uml-diagram/1607159998166.png)
 
-- 这里有另一个时序图 [Blog](https://blog.csdn.net/fly_zxy/article/details/80911942)
+- 这里有另一个时序图 [Blog](https://blog.csdn.net/fly_zxy/article/details/80911942) 
 
-![img](/images/posts/2016-06-06-uml-diagram/20180704155415694.jpg)
+  ![img](/images/posts/2016-06-06-uml-diagram/20180704155415694.jpg)
+
+- 其它一些时序图，时序图非常重要，可以明确流程信息，避免扯淡
+
+![1](/images/posts/2016-06-06-uml-diagram/1.png)
+
+![2](/images/posts/2016-06-06-uml-diagram/2.png)
 
 ###### 3.2 协作图 Collaborative Diagram
 
@@ -144,6 +152,10 @@ topmost: false
   - 3）内部转换 internal transition 
   - 4）子状态 substate
   - 5）延迟事件 deferred event
+
+![StateChart1](/images/posts/2016-06-06-uml-diagram/StateChart1.png)
+
+![StateChart2](/images/posts/2016-06-06-uml-diagram/StateChart2.png)
 
 ![1607160980165](/images/posts/2016-06-06-uml-diagram/1607160980165.png)
 
