@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 线程 一、AVO 线程3大核心特征
+title: Java 线程 二、AVO 线程3大核心特征
 categories: [Thread 线程--高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发, Atomicity, Visiable, Order

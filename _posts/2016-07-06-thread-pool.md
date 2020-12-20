@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 线程 八、ThreadPool 线程池
+title: Java 线程 七、ThreadPool 线程池
 categories: [Thread 线程--高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发, 线程池, ThreadPool
@@ -224,11 +224,11 @@ public static void main(String[] args) throws Exception {
 }
 ```
 
-![result](/imagess/posts/2016-07-06-thread-pool/result.png)
+![result](/images/posts/2016-07-06-thread-pool/result.png)
 
 - 实现原理： 用一个 Map 来存放不同业务对应的线程池
 
-![theory](/imagess/posts/2016-07-06-thread-pool/theory.png)
+![theory](/images/posts/2016-07-06-thread-pool/theory.png)
 
 
 
@@ -245,9 +245,9 @@ TIDYING 所有任务终止 workerCounter为0 回掉terminate()
 TERMINATED 终态 terminated()执行完成
 ```
 
-![threadpoolstatus2](/imagess/posts/2016-07-06-thread-pool/threadpoolstatus2.jpg)
+![threadpoolstatus2](/images/posts/2016-07-06-thread-pool/threadpoolstatus2.jpg)
 
-![threadpoolstatus](/imagess/posts/2016-07-06-thread-pool/threadpoolstatus.png)
+![threadpoolstatus](/images/posts/2016-07-06-thread-pool/threadpoolstatus.png)
 
 
 
@@ -270,13 +270,13 @@ TERMINATED 终态 terminated()执行完成
 
 // 这段解释的垃圾  
 
-![execute](/imagess/posts/2016-07-06-thread-pool/execute.png)
+![execute](/images/posts/2016-07-06-thread-pool/execute.png)
 
 ##### Flow 执行流程
 
-![threadpoolflow](/imagess/posts/2016-07-06-thread-pool/threadpoolflow.jpg)
+![threadpoolflow](/images/posts/2016-07-06-thread-pool/threadpoolflow.jpg)
 
-![advice](/imagess/posts/2016-07-06-thread-pool/advice.jpg)
+![advice](/images/posts/2016-07-06-thread-pool/advice.jpg)
 
 
 
@@ -288,11 +288,11 @@ TERMINATED 终态 terminated()执行完成
 
 案例：一个核心线程、最大线程数、阻塞队列都为2的线程池，往线程池丢一个任务
 
-![threadpool](/imagess/posts/2016-07-06-thread-pool/threadpool.jpg)  
+![threadpool](/images/posts/2016-07-06-thread-pool/threadpool.jpg)  
 
-![theory1](/imagess/posts/2016-07-06-thread-pool/theory1.png)
+![theory1](/images/posts/2016-07-06-thread-pool/theory1.png)
 
-![theory2](/imagess/posts/2016-07-06-thread-pool/theory2.jpg)
+![theory2](/images/posts/2016-07-06-thread-pool/theory2.jpg)
 
 
 
@@ -368,7 +368,7 @@ Result solve(Problem problem){
 
 子类:     **RecursiveTask**(有返回值) **RecursiveAction**(无返回值)
 
-![forkjoin](/imagess/posts/2016-07-06-thread-pool/forkjoin.png)
+![forkjoin](/images/posts/2016-07-06-thread-pool/forkjoin.png)
 
 案例：计算超大数组所有元素的合
 

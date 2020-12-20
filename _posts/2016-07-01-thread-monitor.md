@@ -11,13 +11,19 @@ topmost: false
 
 vm通过进入、退出Monitor(对象监视器)，实现对方法、同步块同步，每一个对象都有且仅有一个 monitor。
 
-###### 1.进入区(**Entry** Set): 表线程通过synchronized  
+###### 1.进入区 **Entry** Set   
+
+表线程通过synchronized  
 
 要求获取对象锁-> 对象未被锁-> 进入入拥有者;否则则在进入区等待，一旦对象锁被其他线程释放,立即参与竞争。 
 
-###### 2.拥有者(The Owner):表示某一线程成功竞争到对象锁 
+###### 2.拥有者 The Owner 
 
-###### 3.等待区(**Wait** Set):表示线程通过对象的wait方法,释放对象的锁，并在等待区等待被唤醒 **notify()**  
+表示某一线程成功竞争到对象锁 
+
+###### 3.等待区 **Wait** Set 
+
+表示线程通过对象的wait方法,释放对象的锁，并在等待区等待被唤醒 **notify()**  
 
 "Entry Set" --线程-- "Waiting for monitor entry"  
 "Wait Set"  --线程-- "in Object.**wait()**"  
