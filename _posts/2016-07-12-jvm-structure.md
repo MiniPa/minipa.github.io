@@ -286,7 +286,8 @@ https://www.cnblogs.com/liuchuanfeng/p/8484641.html
 
 ##### 5.2 准备工作
 
-######  1）配置 jstatd 的远程 RMI 服务：将 jstatd.all.policy 文件放在 JAVA_HOME/bin 中，如下为文件内容
+######  1）配置 jstatd 的远程 RMI 服务
+将 jstatd.all.policy 文件放在 JAVA_HOME/bin 中，如下为文件内容
 
 ```
 grant codebase "file:${java.home}/../lib/tools.jar" {
@@ -302,13 +303,15 @@ jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=1
 ```
 10.27.20.xx为你服务器的ip地址,&表示用守护线程的方式运行
 
-###### 2）执行 C:\glassfish4\jdk7\bin\jvisualvm.exe 打开JVM控制台
+###### 2）执行 jvisualvm 
+C:\glassfish4\jdk7\bin\jvisualvm.exe 打开JVM控制台
 
 ![jvm2](/images/posts/2016-07-12-jvm-structure/jvm2-1609471150356.png)
 
 工具--插件--中找到 Visual GC 插件进行安装
 
-###### 3）对要执行java程序进行调优，以 c1000k.jar 为例，在该 jar 包所在目录下建立一个 start.sh 文件，文件内容如下
+###### 3）对要执行java程序进行调优
+以 c1000k.jar 为例，在该 jar 包所在目录下建立一个 start.sh 文件，文件内容如下
 
 ```
 java -server -Xms4G -Xmx4G -Xmn2G -XX:SurvivorRatio=1 -XX:+UseConcMarkSweepGC -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=1100 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar c1000k.jar&
