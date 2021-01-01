@@ -176,3 +176,22 @@ AppClassLoader 加载类都失败的化，会抛出异常 ClassNotFoundException
 
 ## 参考：
 
+1.[JVM类加载机制](http://mp.weixin.qq.com/s/rLooaTOU_NQTJdn28KAUFw) 
+
+2.[JVM内存结构](http://mp.weixin.qq.com/s/li3ISdodGu2EK_Fo_4NJPA) 
+
+3.[GC算法](http://mp.weixin.qq.com/s/olNXcRAT3PTK-hV_ehtmtw) 
+
+4.[JVM调优--命令](http://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA) 
+
+5.[Java GC分析](http://mp.weixin.qq.com/s/S3PcA2KIzCVB2hJmsbVzyQ) 
+
+6.[Java GC调优案例](http://mp.weixin.qq.com/s/oMZVwg6ypW9QOWal7ioFVA) 
+
+7.[JVM调优--工具](http://mp.weixin.qq.com/s/SsJeaWz4EvZvQkYjc6J6jg) 
+
+8.[JVM知识点总览](http://mp.weixin.qq.com/s/ebg0bT_xBahGV7OAKorBAw) 
+
+9.[如何优化JavaGC ](http://mp.weixin.qq.com/s/ydkEkh_Uc1paftJLKIsm0w)
+
+10.[OOM Kille](http://mp.weixin.qq.com/s/34GVlaYDOdY1OQ9eZs-iXg)r 
