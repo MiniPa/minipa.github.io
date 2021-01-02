@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mysql 07 Mybatis-plus
+title: Mysql 07 redo undo log
 categories: [Mysql]
-description: Mybatis-plus
-keywords: mysql, Mybatis-plus
+description: Mysql 事务和可靠性实现方式
+keywords: mysql, redo, undo
 topmost: false
 ---
 
