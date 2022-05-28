@@ -1,6 +1,6 @@
 # MiniPa Java 分布式 全栈开发，大数据项目、AI项目等，做好一件事足以
 
-我的个人博客：<https://minipa.bxg.today>，欢迎 Star 和 Fork。
+我的个人博客：<https://minipa.github.io>，欢迎 Star 和 Fork。
 我的个人Github：<https://github.com/MiniPa>，欢迎 Star 和 Fork。
 
 ## 概览

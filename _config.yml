@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://minipa.bxg.today
+url: https://minipa.github.io
 date_format: "ordinal"
 title: MiniPa
 subtitle: "一件意事，一个爱好，足矣"

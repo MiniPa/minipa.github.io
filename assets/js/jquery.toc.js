@@ -1,5 +1,5 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
-// Updated by https://minipa.bxg.today
+// Updated by https://minipa.github.io
 (function($){
   $.fn.toc = function(options) {
     var defaults = {
