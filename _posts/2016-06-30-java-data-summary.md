@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Java 容器类 七、Collection、Map 汇总与分析
+comments: true,
+comments: true,
 categories: [Java 容器类]
 description: 比对容易混淆的数据结构概念并区分
 keywords: Collection、Map

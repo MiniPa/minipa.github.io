@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: GitHub
+comments: true,
 categories: GitHub
 description: GitHub 相关使用技巧
 keywords: GitHub

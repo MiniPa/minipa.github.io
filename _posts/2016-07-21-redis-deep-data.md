@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 03 底层数据结构
+comments: true,
 categories: [Redis]
 description: Redis dict、skiplist、intset、ziplist 等底层数据结构
 keywords: Redis, dict, skiplist, intset, ziplist

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 11 命令执行过程 
+comments: true,
 categories: [Redis]
 description: Redis 命令执行过程 
 keywords: Redis

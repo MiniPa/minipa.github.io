@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MQ 04 sync/async 同步异步消息 
+comments: true,
 categories: [MQ]
 description: MQ sync/async 同步异步消息 优劣分析
 keywords: MQ, sync MQ, async MQ

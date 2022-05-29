@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 02 基本数据结构
+comments: true,
 categories: [Redis]
 description: Redis SDS、List、Set、Zset、Hash 等基本数据结构
 keywords: Redis, SDS

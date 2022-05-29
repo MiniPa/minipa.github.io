@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 03 本地缓存、分布式缓存
+comments: true,
 categories: [Cache]
 description: Cache 本地缓存、分布式缓存
 keywords: Redis, Cache

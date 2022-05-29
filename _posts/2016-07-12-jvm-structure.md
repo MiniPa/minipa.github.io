@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JVM 03 JMM 结构 + JVM 调优
+comments: true,
 categories: [JVM]
 description: JMM 结构 + JVM 调优
 keywords: JVM, JDK, structure

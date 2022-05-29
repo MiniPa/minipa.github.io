@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JVM 01 编译和执行机制
+comments: true,
 categories: [JVM]
 description: Java 虚拟机 编译和加载机制
 keywords: JVM, JDK, Java Compile

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mysql 03 ACID 事务特性、SRCU 隔离级别
+comments: true,
 categories: [Mysql]
 description: Mysql ACID 事务特性、SRCU 隔离级别
 keywords: mysql, ACID, SRCU

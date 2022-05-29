@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Java 线程 八、ThreadPool 线程池
+comments: true,
 categories: [Thread 线程--高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发, 线程池, ThreadPool

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 07 缓存雪崩、缓存穿透、memory 优化-4 释放机制
+comments: true,
 categories: [Redis]
 description: Redis 缓存雪崩、缓存穿透、memory 优化-4 释放机制
 keywords: Redis, 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mysql 06 Index 索引
+comments: true,
 categories: [Mysql]
 description: Mysql Index 索引
 keywords: mysql, Index 索引

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mysql 07 redo undo log
+comments: true,
 categories: [Mysql]
 description: Mysql 事务和可靠性实现方式
 keywords: mysql, redo, undo

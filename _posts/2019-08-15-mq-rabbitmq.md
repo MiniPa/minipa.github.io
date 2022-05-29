@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MQ 08 RabbitMQ
+comments: true,
 categories: [MQ]
 description: 
 keywords: MQ, MessageQueue

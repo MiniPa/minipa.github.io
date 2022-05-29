@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 01 基础介绍
+comments: true,
 categories: [Redis]
 description: Redis 使用场景、主要用途、Redis-Mysql
 keywords: Redis

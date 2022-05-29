@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Java 线程 五、悲观锁、乐观锁
+comments: true,
 categories: [Thread 线程--高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 06 Redis 本身事务 与 分布式锁 
+comments: true,
 categories: [Redis]
 description: Redis 本身事务 与 分布式锁
 keywords: Redis, transaction 

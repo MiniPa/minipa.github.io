@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 04 CDN 和 方向代理缓存
+comments: true,
 categories: [Cache]
 description: CDN 和 方向代理缓存 
 keywords: Redis, Cache

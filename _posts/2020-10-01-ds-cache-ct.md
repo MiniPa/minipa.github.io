@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 05 缓存穿透、缓存雪崩
+comments: true,
 categories: [Cache]
 description: 缓存穿透、缓存雪崩 
 keywords: Redis, Cache

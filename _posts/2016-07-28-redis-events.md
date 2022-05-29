@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 10 server 事件模型 
+comments: true,
 categories: [Redis]
 description: Redis server 事件模型
 keywords: Redis, events

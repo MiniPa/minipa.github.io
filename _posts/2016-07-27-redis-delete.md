@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 09 淘汰机制-3 删除策略-2 
+comments: true,
 categories: [Redis]
 description: Redis 淘汰机制-3 删除策略-2 
 keywords: Redis

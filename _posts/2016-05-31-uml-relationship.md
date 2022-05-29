@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UML 介绍 和 8 种类关系
+comments: true,
 categories: [系统设计, UML]
 excerpt: United Modeling Language 统一建模语言
 description: 用来设计软件蓝图的可视化建模语言

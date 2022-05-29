@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UML = 关系(Relationships) + 关系图(Diagrams)
+comments: true,
 categories: [系统设计, UML]
 excerpt: 用例图、时序图、类图 ...
 description: 看图 ==> 会分析图 ==> 会画图 ==> 会讲图 ==> 会转化落地为项目

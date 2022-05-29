@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 05 持久化 RDB / AOF
+comments: true,
 categories: [Redis]
 description: Redis 
 keywords: Redis, 

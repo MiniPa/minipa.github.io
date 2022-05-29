@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 02 Redis 多级缓存方案
+comments: true,
 categories: [Cache]
 description: Redis 多级缓存方案 
 keywords: Redis, Cache

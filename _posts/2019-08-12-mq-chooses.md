@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MQ 03 选型
+comments: true,
 categories: [MQ]
 description: ActiveMQ、RabbitMQ、RocketMQ、Kafka 选型
 keywords: MQ, MessageQueue

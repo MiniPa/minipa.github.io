@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MQ 03 Pull、Push 模式
+comments: true,
 categories: [MQ]
 description: Pull 和 Push MQ 模式优劣分析
 keywords: MQ, Pull、Push

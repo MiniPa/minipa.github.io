@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mysql 07 Mybatis-plus
+comments: true,
 categories: [Mysql]
 description: Mybatis-plus
 keywords: mysql, Mybatis-plus

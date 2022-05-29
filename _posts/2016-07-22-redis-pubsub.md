@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis 04 Pub / Sub
+comments: true,
 categories: [Redis]
 description: Redis 订阅发布机制
 keywords: Redis, pub, sub 
