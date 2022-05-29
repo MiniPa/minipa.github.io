@@ -2,7 +2,7 @@
 layout: post
 title: Java 线程 十、context 上下文切换
 comments: true,
-categories: [Thread 线程--高并发]
+categories: [Thread 线程, 高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发, context, 上下文切换
 topmost: false

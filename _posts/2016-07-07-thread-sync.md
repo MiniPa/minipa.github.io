@@ -2,7 +2,7 @@
 layout: post
 title: Java 线程 九、阻塞/非阻塞 同步/异步
 comments: true,
-categories: [Thread 线程--高并发]
+categories: [Thread 线程, 高并发]
 description: Java Thread 并发处理
 keywords: 线程, Thread, 高并发, 阻塞，非阻塞，同步，异步
 topmost: false
