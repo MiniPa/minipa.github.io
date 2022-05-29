@@ -60,7 +60,7 @@ navs:
 
   -
     href: /categories/
-    label: 分类
+    label: 博客列表
 
 #   -
 #     href: /archives/
@@ -71,16 +71,20 @@ navs:
 #     label: 开源
 
   -
-    href: /wiki/
-    label: 维基
+    href: /mindmap-viewer/
+    label: 脑图分享
+
+#  -
+#    href: /wiki/
+#    label: 维基
 
   -
     href: /links/
-    label: 链接
+    label: 分享感谢
 
   -
     href: /about/
-    label: 关于
+    label: 我的信息
 
 # ---------------- #
 #       RSS        #
