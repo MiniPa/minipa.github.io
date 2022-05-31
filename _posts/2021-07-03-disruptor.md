@@ -19,8 +19,9 @@ topmost: true
 [Dsiruptor 开发手册](https://lmax-exchange.github.io/disruptor/developer-guide/index.html)
 
 ### 2.核心结构设计
+
 ![disruptor](/images/types/cur/disruptor.png)
-  
+
 - Ring Buffer 环形缓冲区
 曾经是Disruptor中的核心对象，不过从3.0版本开始，只负责对通过Disruptor进行交换的数据(事件)进行存储和更新
 在一些高级使用中，Ring Buffer可以由用户自定义的来代替
@@ -59,8 +60,9 @@ EventProcessor 持有特定消费者(Consumer)的Sequence，
 - 1.在性能测试中发现竟然与I/O操作处于同样的数量级
 - 2.一个线程每秒处理6百万订单/s
 - 3.依据并发竞争的激烈程度的不同，Disruptor比ArrayBlockingQueue吞吐量快 4~7倍，平均延迟差了3个数量级  
-- 高性能设计
-```aidl
+
+#### 2.1 高性能设计
+```java
 1）环形数组：减少垃圾回收，数组对缓存机制更友好
 为了避免垃圾回收，采用数组而非链表
 同时，数组对处理器的缓存机制更加友好（占位符方式解决了伪共享问题）
@@ -74,7 +76,7 @@ EventProcessor 持有特定消费者(Consumer)的Sequence，
 每个生产者或者消费者线程，会先申请可以操作的元素在数组中的位置，申请到之后，直接在该位置写入或者读取数据
 ```
 
-#### 1) 无锁设计
+##### 无锁设计
 - 问题
 ```aidl
  问题1： 如何防止多个线程重复写同一个元素？
@@ -102,6 +104,7 @@ Disruptor在多个生产者的情况下，引入了一个与Ring Buffer大小相
 	然后开始读取availableBuffer，从3开始，往后读取，发现下标为7的元素没有生产成功，于是WaitFor(11)返回6
 然后，消费者读取下标从3到6共计4个元素
 ```
+
 ![disruptor-read](/images/types/cur/disruptor-read.png)
 
 - 写数据
@@ -122,7 +125,7 @@ Writer1写入下标3位置的元素，同时把available Buffer相应位置置�
 ```
 ![disruptor-write](/images/types/cur/disruptor-write.png)
 
-#### 2) WaitStrategy 等待策略
+##### WaitStrategy 等待策略
 ```aidl
 BlockingWaitStrategy: 为等待屏障的EventProcessors使用一个 Lock 和 condition variable   ==> 优先吞吐量
 	当吞吐量和低延迟不像CPU资源那么重要时，可以使用此策略

@@ -41,18 +41,18 @@ CentOS，1 个 CPU，4GB RAM 在 VM 上运行：CPU 10%，内存 15%
 
 ### 核心功能介绍
 
-#### 源码结构
+#### 1.源码结构
 ![netty-socketIO-code](/images/types/socket/netty-socketIO-code.png)
 
-#### 核心抽象
+#### 2.核心抽象
 
-###### SocketIOServer
+##### 1）SocketIOServer
 封装 netty 服务，对外提供一个 socket基础服务
 
-####### SocketIOClient
+##### 2）SocketIOClient
 封装每一个与 Server 连接的客户端为一个 SocketIOClient 
 
-###### Room 房间概念
+##### 3）Room 房间概念
 - Namespace 命名空间： 包含多个房间、事件监听器、所有SocketIOClient， 以及基本的加入房间、离开房间，获取Clients、增加监听等操作。一般一个 SocketIOServer 一个 Namespace；已有连接监听、断开连接监听、心跳监听、
   - SocketIONamespace： 包含了 Namespace 和 相关的操作 BroadcastOperations
   - NamespaceHub 配置和命名空间的集线器
@@ -60,7 +60,7 @@ CentOS，1 个 CPU，4GB RAM 在 VM 上运行：CPU 10%，内存 15%
 - Room 房间： 一个网络教室(教室内经常互通信息)，一个聊天群(群里经常互通信息) 等经常存在广播、单播操作的整体
 ![room](/images/types/socket/room.png)
 
-- *** SocketIOClient*** 客户端连接： 指一个 SocketIOClient， 一个房间内包含多个 SocketIOClient，每个有自己的 session，
+- **SocketIOClient** 客户端连接： 指一个 SocketIOClient， 一个房间内包含多个 SocketIOClient，每个有自己的 session，
 一个 SocketIOClient 可以存在于多个 Room 中，如一个学生客户端的 Socket，可以同时在多个 Room，课堂1、课堂2、聊天群1、聊天群2中
   - NamespaceClient: 命名空间和Socket集合体，并提供一个 ClientHead 存储 Client 额外信息和操作，本身提供发送事件、发送信息包、监听连接、断开连接等功能
   - ClientHead: 提供连接的 命名空间对象 Namespace~NamespaceClient，以及传输对象 Transport~TransportState。
@@ -74,18 +74,18 @@ CentOS，1 个 CPU，4GB RAM 在 VM 上运行：CPU 10%，内存 15%
     - PollingTransport  
   - SocketIOChannelInitializer: 继承 netty ChannelInitializer，进行 ack、packet、handler 等处理，并 start() SocketChannel。
   
-- BoradcastOperations: 房间内操作的抽象：广播、单播、排除自己广播等
+- **BoradcastOperations**: 房间内操作的抽象：广播、单播、排除自己广播等
   - MultiRoomOperations: 多房间操作
   - SingleRoomOperations: 单房间操作
 
-###### Store 客户端存储
+##### 4）Store 客户端存储
 存储 SocketIOClient信息，采用发布和订阅模式，可以监听不同 SocketIOClient 事件，并可以提供持久化机制，保证高可用。
   - PubSubType: 连接、取消连接、加入房间、离开房间、广播事件
   - DataListener: 监听事件并做处理 
   - StoreType: 内存、Redis、Hazelcast 等
 ![pubsubStore](/images/types/socket/pubsubStore.png)
 
-###### netty 对接
+##### 5）netty 对接
 - Handler Channel 处理
   - InPacketHandler： 读取、解码、获取Namespace、执行监听，
   - AuthorizeHandler: 认证，一般会在 Handshake 信息里处理认证，然后进行连接、激活通道、缓存、ack准备等系列操作
@@ -94,7 +94,7 @@ CentOS，1 个 CPU，4GB RAM 在 VM 上运行：CPU 10%，内存 15%
 ![jsonsupport](/images/types/socket/jsonsupport.png)
 
 
-#### 总结
+### 总结
 基于 netty Socket通信，定制一些 Channel Handler，以房间，连接为核心对象进行一些结构化数据存储，提供基本的 ping、ack、join、leave、dispatch 等业务操作
 
 
