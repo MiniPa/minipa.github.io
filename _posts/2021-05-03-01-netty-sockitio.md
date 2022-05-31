@@ -18,6 +18,7 @@ topmost: true
 - netty-SocketIO 代码分析图例(建议下载到本地查看，作为代码分析参考，个人源码分析学习图稿)
 ![netty-SocketIO](/images/types/socket/nettySocketIO.png)
 
+
 ### 性能
 CentOS，1 个 CPU，4GB RAM 在 VM 上运行：CPU 10%，内存 15%  
 - 6000个 xhr 长的轮询会话   

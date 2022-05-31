@@ -19,7 +19,6 @@ topmost: true
 [Dsiruptor 开发手册](https://lmax-exchange.github.io/disruptor/developer-guide/index.html)
 
 ### 2.核心结构设计
-
 ![disruptor](/images/types/cur/disruptor.png)
 
 - Ring Buffer 环形缓冲区
@@ -60,6 +59,7 @@ EventProcessor 持有特定消费者(Consumer)的Sequence，
 - 1.在性能测试中发现竟然与I/O操作处于同样的数量级
 - 2.一个线程每秒处理6百万订单/s
 - 3.依据并发竞争的激烈程度的不同，Disruptor比ArrayBlockingQueue吞吐量快 4~7倍，平均延迟差了3个数量级  
+
 
 #### 2.1 高性能设计
 ```java
