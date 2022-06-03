@@ -34,9 +34,9 @@ JConsole和JVisualVM中能够监控到JAVA应用程序和JVM的相关信息都�
 每个MBean都暴露出来针对底层资源的操作和访问
 ```
 #### 架构图
-![jmx 架构图](../images/types/jmx/jmx-arch.png)
+![jmx 架构图](/images/types/jmx/jmx-arch.png)
 
-![jmx 监控图](../images/types/jmx/jmx-monitor.png)
+![jmx 监控图](/images/types/jmx/jmx-monitor.png)
 
 
 ### 2.JMX 角色
@@ -288,7 +288,7 @@ public class Main {
 }
 ```
 - 通过jdk jconsole去连接这个本地进程 打开Mbean 点击hello，可使用RMI进行远程连接MBean server, 进行管理和操作
-![MBean JConsole](../images/types/jmx/mbean-example.png)
+![MBean JConsole](/images/types/jmx/mbean-example.png)
 
 ### 5.MBeanUtils
 ```java
