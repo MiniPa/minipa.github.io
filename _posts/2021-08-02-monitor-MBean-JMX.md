@@ -8,7 +8,7 @@ keywords: JMX, MXBean, 监控, monitor
 topmost: false
 ---
 
-## Java核心技术 节点（Monitor）
+## Java核心技术 思维导图节点（Monitor）
 <iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:525px; height:245px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
 
 

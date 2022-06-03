@@ -8,7 +8,7 @@ keywords: Disruptor, Queue
 topmost: true
 ---
 
-## Java核心技术 节点（Concurrency 并发 -> disruptor）
+## Java核心技术 思维导图 节点（Concurrency 并发 -> disruptor）
 <iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:525px; height:245px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
 
 ## Disruptor
@@ -19,6 +19,7 @@ topmost: true
 [Dsiruptor 开发手册](https://lmax-exchange.github.io/disruptor/developer-guide/index.html)
 
 ### 2.核心结构设计
+
 ![disruptor](/images/types/cur/disruptor.png)
 
 - Ring Buffer 环形缓冲区
