@@ -11,7 +11,6 @@ topmost: false
 ## Java核心技术 思维导图节点（Monitor）
 <iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:525px; height:245px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
 
-
 ## 一、JMX Java Management Extensions
 1）一个为应用程序植入管理功能的框架,一套标准的代理和服务  
 2）主要用于对JAVA应用程序和JVM进行监控和管理  
@@ -34,10 +33,10 @@ JConsole和JVisualVM中能够监控到JAVA应用程序和JVM的相关信息都�
 	最接近管理资源的，它由注册在Agents中的MBeans组成，这个MBean允许通过JMX Agent来管理
 每个MBean都暴露出来针对底层资源的操作和访问
 ```
+#### 架构图
+![jmx 架构图](../images/types/jmx/jmx-arch.png)
 
-![jmx 架构图](/images/types/jmx/jmx-arch.png)
-
-![jmx 监控图](/images/types/jmx/jmx-monitor.png)
+![jmx 监控图](../images/types/jmx/jmx-monitor.png)
 
 
 ### 2.JMX 角色
@@ -289,7 +288,7 @@ public class Main {
 }
 ```
 - 通过jdk jconsole去连接这个本地进程 打开Mbean 点击hello，可使用RMI进行远程连接MBean server, 进行管理和操作
-![MBean JConsole](/images/types/jmx/mbean-example.png)
+![MBean JConsole](../images/types/jmx/mbean-example.png)
 
 ### 5.MBeanUtils
 ```java

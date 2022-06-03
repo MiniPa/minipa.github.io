@@ -20,7 +20,7 @@ topmost: true
 
 ### 2.核心结构设计
 
-![disruptor](/images/types/cur/disruptor.png)
+![disruptor](../images/types/cur/disruptor.png)
 
 - Ring Buffer 环形缓冲区
 曾经是Disruptor中的核心对象，不过从3.0版本开始，只负责对通过Disruptor进行交换的数据(事件)进行存储和更新
@@ -106,7 +106,7 @@ Disruptor在多个生产者的情况下，引入了一个与Ring Buffer大小相
 然后，消费者读取下标从3到6共计4个元素
 ```
 
-![disruptor-read](/images/types/cur/disruptor-read.png)
+![disruptor-read](../images/types/cur/disruptor-read.png)
 
 - 写数据
 ```aidl
@@ -124,7 +124,7 @@ Writer1被分配了下标3到下表5的空间，Writer2被分配了下标6到下
 
 Writer1写入下标3位置的元素，同时把available Buffer相应位置置位，标记已经写入成功，往后移一位，开始写下标4位置的元素。Writer2同样的方式。最终都写入完成。
 ```
-![disruptor-write](/images/types/cur/disruptor-write.png)
+![disruptor-write](../images/types/cur/disruptor-write.png)
 
 ##### WaitStrategy 等待策略
 ```aidl
@@ -176,7 +176,7 @@ public class Disruptor<T>
 // ...
 }
 ```
-![disruptor-java](/images/types/cur/java-disruptor.png)
+![disruptor-java](../images/types/cur/java-disruptor.png)
 
 - one example
 ```java
@@ -366,7 +366,7 @@ public interface EventTranslator<T>
 当发布到RingBuffer时，提供一个EventTranslator  
 在发布序列更新之前，RingBuffer将按顺序选择下一个可用的事件，并将其提供给EventTranslator(它应该更新事件)  
 类型参数: 事件实现存储数据，以便在交换或事件的并行协调期间共享
-![eventTranslator](/images/types/cur/eventTranslator.png)
+![eventTranslator](../images/types/cur/eventTranslator.png)
 
 - EventTranslatorOneArg < T > 实现将另一个数据表示转换为从RingBuffer声明的事件
 ```java
