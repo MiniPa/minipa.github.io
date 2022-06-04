@@ -2,7 +2,7 @@
 layout: post
 title: ElasticSearch 
 comments: true,
-categories: [ElasticSearch]
+categories: [ElasticSearch, nosql]
 description: ElasticSearch 核心要点领会
 keywords: ElasticSearch , ES
 topmost: false
