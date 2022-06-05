@@ -9,7 +9,7 @@ topmost: false
 ---
 
 ## Java核心技术 思维导图节点（Monitor）
-<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:525px; height:245px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:770px; height:435px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
 
 ## 一、JMX Java Management Extensions
 1）一个为应用程序植入管理功能的框架,一套标准的代理和服务  

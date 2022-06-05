@@ -9,7 +9,7 @@ topmost: true
 ---
 
 ## Java核心技术 思维导图 节点（Concurrency 并发 -> disruptor）
-<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:525px; height:245px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:770px; height:435px;" src="https://www.processon.com/embed/623b22e5e401fd070bbe3acd"></iframe>
 
 ## Disruptor
 ### 1.介绍
