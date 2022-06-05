@@ -178,7 +178,8 @@ public class Disruptor<T>
 ```
 ![disruptor-java](/images/types/cur/java-disruptor.png)
 
-- one example
+&nbsp; 
+one example
 ```java
 @Data
 @Slf4j
@@ -247,7 +248,8 @@ public interface WorkHandler<T>
     void onEvent(T event) throws Exception;
 }
 ```
-- 使用 Disruptor 处理自定义 netty 相关事件
+&nbsp;
+使用 Disruptor 处理自定义 netty 相关事件
 ```java
 @Slf4j
 public class TurtleEventHandler implements WorkHandler<TurtleEvent> {
@@ -336,13 +338,15 @@ public class TurtleEventHandler implements WorkHandler<TurtleEvent> {
 ### 4.3 EventHandler 
 当事件在RingBuffer中可用时，将实现处理事件的回调接口  
 类型参数: 事件实现存储数据，以便在交换或事件的并行协调期间共享
+&nbsp;
 ```java
 public interface EventHandler<T>
 {
     void onEvent(T event, long sequence, boolean endOfBatch) throws Exception;
 }
 ```
-- 种子接口: SequenceReportingEventHandler < T >
+&nbsp;
+种子接口: SequenceReportingEventHandler < T >
 ```java
 由 BatchEventProcessor 使用，用于设置回调，允许事件处理程序在事件处理程序之后使用事件时发出通知
 	onEvent(Object, long, boolean)调用
@@ -356,19 +360,23 @@ public interface SequenceReportingEventHandler<T> extends EventHandler<T> {
 ```
 
 ### 4.4 EventTranslator
-- 实现将数据表示转换(写入)为从RingBuffer声明的事件
+&nbsp;
+实现将数据表示转换(写入)为从RingBuffer声明的事件
 ```java
 public interface EventTranslator<T>
 {
     void translateTo(T event, long sequence);
 }
 ```
+
+&nbsp;
 当发布到RingBuffer时，提供一个EventTranslator  
 在发布序列更新之前，RingBuffer将按顺序选择下一个可用的事件，并将其提供给EventTranslator(它应该更新事件)  
 类型参数: 事件实现存储数据，以便在交换或事件的并行协调期间共享
 ![eventTranslator](/images/types/cur/eventTranslator.png)
 
-- EventTranslatorOneArg < T > 实现将另一个数据表示转换为从RingBuffer声明的事件
+&nbsp;
+EventTranslatorOneArg < T > 实现将另一个数据表示转换为从RingBuffer声明的事件
 ```java
 public class TurtleEventProducer {
 
@@ -396,7 +404,6 @@ public class TurtleEventProducer {
         }
     }
 }
-
 ```
 
 
