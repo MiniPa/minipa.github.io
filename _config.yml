@@ -12,31 +12,42 @@ timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 3
 repository: MiniPa/minipa.github.io
-
+# 页面左下角显示的年份
+since: 2015
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: true
-
-# 组件配置
+        enabled: false
+# 可选组件配置
 components:
     # 分享
+    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
         enabled: false
+        hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-11-30
-
+        start_date: 2020-05-03
+    # My Popular Repositories
+    side_bar_repo:
+        enabled: true
+        limit: 5
+    # 文章字数统计
+    word_count:
+        enabled: true
+    # 页面右上角，以及「关于」页面的二维码
+    # 修改图片请替换 assets/images/qrcode.jpg
+    qrcode:
+        enabled: true
+        image_alt: MiniPa
+    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
+    wiki:
+        view: cate
 # 压缩页面内容
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
-
-# 文章字数统计
-word_count:
-    enabled: true
-
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
 highlight_theme: github
 
@@ -97,14 +108,12 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
-
 highlighter: rouge
 paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-
 plugins:
     - jekyll-github-metadata
     - rouge
@@ -114,7 +123,6 @@ plugins:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-
 collections:
     wiki:
         output: true
@@ -123,16 +131,14 @@ collections:
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-
+# support provider: disqus, gitment, gitalk, utterances, beaudar
+comments_provider: beaudar
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
     username: chengminipa
-
-# https://imsun.net/posts/gitment-introduction/
+# gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: minipa
     repo: blog-comments
@@ -146,6 +152,13 @@ gitalk:
     repo: blog-comments
     clientID: 9987ca724396ce6b02d6
     clientSecret: 2e5ef431784b91990e19c1ad2c94e51ec9a7eb78
+
+# utterances 配置参考：https://utteranc.es/
+utterances:
+    repo: MiniPa/blog-comments
+# beaudar 配置参考：https://beaudar.lipk.org/
+beaudar:
+    repo: MiniPa/blog-comments
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -165,6 +178,7 @@ google:
     analytics_id: UA-80669434-1
     adsense:
         footer: true
-        sidebar: true
-        content_header: true
+        sidebar: true 
+        sidebar-detail: true 
+        content_header: false
         content_footer: false
