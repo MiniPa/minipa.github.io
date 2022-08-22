@@ -5,7 +5,7 @@ baseurl:
 url: https://minipa.github.io
 date_format: "ordinal"
 title: MiniPa
-subtitle: "一件意事，一个爱好，足矣"
+subtitle: "一件意事，一个爱好"
 description: "Do something !"
 keywords: MiniPa, 分布式, 微服务, 高并发Socket, 灰度, 全链路监控, 大数据, AI, 架构世界
 timezone: Asia/Shanghai
