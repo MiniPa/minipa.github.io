@@ -2,17 +2,19 @@
   keywords:
     - 课堂 Socket 服务研发
     - Sokcet 网关中间件研发
+    - 课堂Flink 监控系统研发
     - API 灰度系统研发
-    - 全链路监控研发
+    - 分布式 全链路监控研发
     - 金税3期 税务系统研发
     - 税务风控系统研发
-    - STEM素质教育全体系研发
+    - STEM 素质教育系统研发
     - 其它
 
 - name: Software Engineer
   keywords:
       - Java
       - Python
+      - Flink
       - Hadoop
       - Spark
       - Design Patterns
@@ -29,4 +31,5 @@
   keywords:
       - Hadoop
       - Spark
+      - Flink
       - Mongodb
